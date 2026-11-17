@@ -14,7 +14,7 @@ Projects, learning, and ideas — mapped as they happen.
 
 ## What this is
 
-This site treats a portfolio less like a template and more like a **field atlas**: numbered plates, marginal notes, coordinate marks, contour lines, and project records. The warm survey-paper palette and ink-blue / signal-red marks are a deliberate change from the familiar dark terminal-and-card layout.
+This site treats a portfolio less like a template and more like a **field atlas**: numbered plates, marginal notes, coordinate marks, contour lines, and project records. Its night-survey palette uses deep aubergine ink, quiet celadon, and dusty lilac with soft copper marks—a calmer dark theme than the familiar black-and-neon terminal layout.
 
 It is a small static site: no build step, dependencies, or framework. Seven portfolio sections have their own route, while a single profile file supplies the content everywhere.
 
@@ -77,7 +77,7 @@ I compared portfolio collections with a few individual sites, looking for useful
 
 ### The direction
 
-The portfolio is designed as a **personal field atlas**: survey-paper texture, contour-map marks, numbered plates, marginal notes, and specimen-like project records. Ink blue and signal red replace the previous dark terminal palette. The map artwork is drawn in CSS, so the site does not depend on stock photography or copied portfolio assets.
+The portfolio is designed as a **personal field atlas**: survey-grid texture, contour-map marks, numbered plates, marginal notes, and specimen-like project records. A muted aubergine base and mineral accents keep it dark but calm. The map artwork is drawn in CSS, so the site does not depend on stock photography or copied portfolio assets.
 
 ## Project files
 
