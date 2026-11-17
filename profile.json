@@ -1,0 +1,66 @@
+{
+  "name": "Om Pounekar",
+  "shortName": "Om",
+  "role": "Student / aspiring developer",
+  "location": "Bhopal, India",
+  "status": "Add your current status",
+  "headline": "Learning by making.",
+  "intro": "I’m interested in the space where thoughtful ideas become useful things. This is my ongoing record of experiments, projects, and what I learn along the way.",
+  "about": "Write a short introduction in your own words. What are you studying or working on? What topics do you keep coming back to? What kind of work would you like to do next?",
+  "interests": ["Add an interest", "Add another interest", "Add a third interest"],
+  "email": "your.email@example.com",
+  "linkedin": "https://www.linkedin.com/in/yourusername/",
+  "github": "https://github.com/yourusername/",
+  "education": [
+    {
+      "period": "20XX — 20XX",
+      "qualification": "Your degree or program",
+      "institution": "Your school or institution",
+      "location": "City, country",
+      "details": "Add your field of study, focus area, or a useful highlight."
+    }
+  ],
+  "skills": [
+    {
+      "group": "Development",
+      "items": ["Add a language", "Add a framework", "Add a tool"]
+    },
+    {
+      "group": "Creative & analytical",
+      "items": ["Add a skill", "Add a skill"]
+    },
+    {
+      "group": "How I work",
+      "items": ["Communication", "Collaboration", "Curiosity"]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Your first project",
+      "category": "Web / design / research",
+      "period": "20XX",
+      "description": "What did you make, who was it for, and what changed because of it?",
+      "stack": ["Add a technology", "Add a tool"],
+      "liveUrl": "",
+      "sourceUrl": ""
+    }
+  ],
+  "achievements": [
+    {
+      "year": "20XX",
+      "title": "Your award or certification",
+      "issuer": "Organization or institution",
+      "details": "Add a brief note about what this recognizes.",
+      "url": ""
+    }
+  ],
+  "experience": [
+    {
+      "period": "20XX — NOW",
+      "role": "Your role or experience",
+      "organization": "Company, team, club, or organization",
+      "location": "City, country",
+      "details": "Describe what you contributed, learned, or helped accomplish."
+    }
+  ]
+}

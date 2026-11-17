@@ -3,71 +3,18 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#0b1010">
-    <meta name="description" content="The portfolio of Your Name — developer, student, and curious builder.">
-    <title>Your Name — Portfolio</title>
+    <meta name="theme-color" content="#eeeadd">
+    <meta name="description" content="A personal field atlas of projects, learning, and ideas by Om Pounekar.">
+    <title>Om Pounekar — Field Atlas</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
   </head>
-  <body>
+  <body data-page="home" data-base="./" data-profile="profile.json">
     <a class="skip-link" href="#main">Skip to content</a>
-    <header class="site-header">
-      <nav class="nav shell" aria-label="Main navigation">
-        <a class="brand" href="./" aria-label="Your Name, home"><span class="brand-icon">&lt;/&gt;</span><span>yourname<span class="brand-muted">.dev</span></span></a>
-        <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation"><span></span><span></span></button>
-        <div class="site-nav" id="site-nav">
-          <a aria-current="page" href="./">Home</a><a href="about/">About</a><a href="education/">Education</a><a href="skills/">Skills</a><a href="projects/">Projects</a><a href="achievements/">Achievements</a><a href="experience/">Experience</a><a class="nav-cta" href="contact/">Contact <span aria-hidden="true">↗</span></a>
-        </div>
-      </nav>
-    </header>
-    <main id="main">
-      <section class="hero shell">
-        <div class="hero-copy">
-          <p class="eyebrow"><span class="live-dot"></span> PORTFOLIO <span class="slash">/</span> 2026</p>
-          <h1>Building digital<br><span>things with purpose.</span></h1>
-          <p class="hero-lede">Hey, I’m <strong>Your Name</strong> — a <span class="placeholder">developer / student / designer</span> interested in making the web a little more useful, thoughtful, and fun.</p>
-          <div class="hero-actions"><a class="button button-primary" href="projects/">Explore my work <span aria-hidden="true">↘</span></a><a class="button button-quiet" href="about/">A bit about me <span aria-hidden="true">→</span></a></div>
-          <div class="hero-meta"><span><i class="availability-dot"></i> OPEN TO OPPORTUNITIES</span><span class="meta-divider">·</span><span>YOUR CITY, COUNTRY</span></div>
-        </div>
-        <div class="code-window" aria-label="Decorative portfolio code sample">
-          <div class="window-bar"><div class="window-dots"><i></i><i></i><i></i></div><span>about-me.js</span><span class="window-menu">•••</span></div>
-          <div class="code-body">
-            <div class="code-line"><span class="line-no">01</span><span><b class="code-purple">const</b> <b class="code-blue">developer</b> = {</span></div>
-            <div class="code-line"><span class="line-no">02</span><span>&nbsp;&nbsp;name: <b class="code-green">"Your Name"</b>,</span></div>
-            <div class="code-line"><span class="line-no">03</span><span>&nbsp;&nbsp;focus: <b class="code-green">"Build with care"</b>,</span></div>
-            <div class="code-line"><span class="line-no">04</span><span>&nbsp;&nbsp;skills: [<b class="code-green">"learn"</b>, <b class="code-green">"make"</b>],</span></div>
-            <div class="code-line"><span class="line-no">05</span><span>&nbsp;&nbsp;currently: <b class="code-green">"leveling up"</b>,</span></div>
-            <div class="code-line"><span class="line-no">06</span><span>&nbsp;&nbsp;available: <b class="code-orange">true</b></span></div>
-            <div class="code-line"><span class="line-no">07</span><span>};</span></div>
-            <div class="code-cursor"><span class="prompt">➜</span> <span>let’s_build_something()</span><i></i></div>
-          </div>
-          <div class="window-status"><span>UTF-8</span><span>JavaScript</span><span><i></i> Ready for what’s next</span></div>
-          <span class="hero-orbit orbit-a"></span><span class="hero-orbit orbit-b"></span>
-        </div>
-        <div class="hero-bottom"><span>SCROLL TO EXPLORE <span aria-hidden="true">↓</span></span><span>DESIGNED & BUILT BY YOUR NAME</span></div>
-      </section>
-
-      <section class="intro-strip">
-        <div class="shell intro-inner"><span class="section-kicker"><span>01</span> / A QUICK INTRO</span><p>I’m interested in <em>good questions, useful technology,</em> and the process of turning a rough idea into something real.</p><a class="inline-link" href="about/">Get to know me <span aria-hidden="true">↗</span></a></div>
-      </section>
-
-      <section class="routes-section shell">
-        <div class="section-heading"><div><p class="eyebrow">THE PORTFOLIO</p><h2>Take a look <span>around.</span></h2></div><p>Each part of my journey has its own page. Pick a place to start.</p></div>
-        <div class="route-grid">
-          <a class="route-card" href="about/"><span class="route-number">01</span><span class="route-icon">{ }</span><h3>About me</h3><p>A little about who I am and what I care about.</p><span class="route-arrow">↗</span></a>
-          <a class="route-card" href="education/"><span class="route-number">02</span><span class="route-icon">⌘</span><h3>Education</h3><p>Where I’ve studied and what I’m learning.</p><span class="route-arrow">↗</span></a>
-          <a class="route-card" href="skills/"><span class="route-number">03</span><span class="route-icon">⌁</span><h3>Skills</h3><p>The tools and strengths I’m growing.</p><span class="route-arrow">↗</span></a>
-          <a class="route-card" href="projects/"><span class="route-number">04</span><span class="route-icon">↗</span><h3>Projects</h3><p>Things I’ve made, explored, and learned from.</p><span class="route-arrow">↗</span></a>
-          <a class="route-card" href="achievements/"><span class="route-number">05</span><span class="route-icon">✳</span><h3>Achievements</h3><p>Milestones, certifications, and proud moments.</p><span class="route-arrow">↗</span></a>
-          <a class="route-card" href="experience/"><span class="route-number">06</span><span class="route-icon">⌖</span><h3>Experience</h3><p>Roles, teams, and places I’ve contributed.</p><span class="route-arrow">↗</span></a>
-          <a class="route-card route-card-accent" href="contact/"><span class="route-number">07</span><span class="route-icon">↗</span><h3>Let’s connect</h3><p>Have an idea or opportunity? I’d love to hear.</p><span class="route-arrow">↗</span></a>
-        </div>
-      </section>
-      <section class="home-contact"><div class="shell home-contact-inner"><span class="section-kicker"><span>02</span> / YOUR TURN</span><div><h2>Have a good one<br><em>in mind?</em></h2><a class="button button-primary" href="contact/">Get in touch <span aria-hidden="true">↗</span></a></div><span class="contact-ascii" aria-hidden="true">{ hello(); }</span></div></section>
-    </main>
-    <footer class="site-footer"><div class="shell footer-inner"><a class="brand" href="./"><span class="brand-icon">&lt;/&gt;</span><span>yourname<span class="brand-muted">.dev</span></span></a><p>Made with curiosity <span>✳</span> © <span id="year">2026</span> Your Name</p><a class="back-top" href="#main">BACK TO TOP ↑</a></div></footer>
+    <div id="app"><p class="loading-note">Unfolding the field notes…</p></div>
+    <noscript>This portfolio needs JavaScript to display the profile stored in profile.json.</noscript>
   </body>
 </html>
